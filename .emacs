@@ -24,13 +24,10 @@
 	 ("1" "船山易学" plain (file "~/d/Learn/node/船山易学.org")
 	 "1. %<%F>\n  #+BEGIN_QUOTE\n  %x\n  #+END_QUOTE\n%?"
 	 )
-	 ("2" "The-Rust-Programming-Language" plain (file "~/d/Learn/node/The-Rust-Programming-Language.org")
+	 ("2" "The Little of Type" plain (file "~/d/Learn/node/The-Little-Type.org")
 	 "1. %<%F>\n  #+BEGIN_QUOTE\n  %x\n  #+END_QUOTE\n%?"
 	 )
-	 ("3" "The Little of Type" plain (file "~/d/Learn/node/The-Little-Type.org")
-	 "1. %<%F>\n  #+BEGIN_QUOTE\n  %x\n  #+END_QUOTE\n%?"
-	 )
-	 ("4" "Vue Note" plain (file "~/d/Learn/node/Vue-Note.org")
+	 ("3" "Vue Note" plain (file "~/d/Learn/node/Vue-Note.org")
 	 "1. %<%F>\n  #+BEGIN_QUOTE\n  %x\n  #+END_QUOTE\n%?"
 	 )
 	))
