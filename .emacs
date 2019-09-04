@@ -16,19 +16,19 @@
 (setq column-number-mode t)
 (setq org-default-notes-file
       ;;The PATH to the file to store node
-      "~/d_work/org_default_node.org"
+      "~/d/org_default_note.org"
       )
 (define-key global-map "\C-cc" 'org-capture)
 (setq org-capture-templates
       '(
-	 ("1" "船山易学" plain (file "~/d/Learn/node/船山易学.org")
-	 "1. %<%F>\n  #+BEGIN_QUOTE\n  %x\n  #+END_QUOTE\n%?"
+	 ("1" "船山易学" plain (file "~/d/Learn/note/船山易学.org")
+	 "1. %<%F>\n  #+BEGIN_QUOTE\n%x\n  #+END_QUOTE\n%?"
 	 )
-	 ("2" "The Little of Type" plain (file "~/d/Learn/node/The-Little-Type.org")
-	 "1. %<%F>\n  #+BEGIN_QUOTE\n  %x\n  #+END_QUOTE\n%?"
+	 ("2" "The Little of Type" plain (file "~/d/Learn/note/The-Little-Type.org")
+	 "1. %<%F>\n#  +BEGIN_QUOTE\n%x\n  #+END_QUOTE\n%?"
 	 )
-	 ("3" "Vue Note" plain (file "~/d/Learn/node/Vue-Note.org")
-	 "1. %<%F>\n  #+BEGIN_QUOTE\n  %x\n  #+END_QUOTE\n%?"
+	 ("3" "Elixir in Acction" plain (file "~/d/Learn/note/Elixir-in-Action.org")
+	 "1. %<%F>\n  #+BEGIN_QUOTE\n%x\n  #+END_QUOTE\n%?"
 	 )
 	))
 (org-babel-do-load-languages
